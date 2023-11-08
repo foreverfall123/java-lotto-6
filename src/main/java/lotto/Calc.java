@@ -5,7 +5,7 @@ public class Calc {
     public static final int LottoAmount = 1000;
 
     private int buyAmount = 0;
-    private int benefit = 0;
+    private long benefit = 0;
 
     public Calc(int buyAmount){
         this.buyAmount = buyAmount;
